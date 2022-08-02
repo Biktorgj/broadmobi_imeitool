@@ -6,12 +6,12 @@ Use this tool to back it up and be able to restore it after updating it.
 
 *****************************************************************************
     ## WARNING ##
+*****************************************************************************
                                
-    Setting an invalid IMEI can kick you out of a network
-    Setting an invalid/different IMEI from what came in your device can be illegal in certain countries. Please check [Wikipedia](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity#IMEI_and_the_law) for more info
+Setting an invalid IMEI can kick you out of a network
+Setting an invalid/different IMEI from what came in your device can be illegal in certain countries. Please check [Wikipedia](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity#IMEI_and_the_law) for more info
     
 #### I'm in no way responsible for any damage done to any device as a result of using this tool.
-*****************************************************************************
 
 #### Examples:
 
@@ -22,9 +22,13 @@ Use this tool to back it up and be able to restore it after updating it.
 #### Arguments: 
 
   -p [AT PORT]: The USB AT Port, typically `/dev/ttyUSB2`
+  
   -b [FILENAME]: Backup to [FILENAME]
-  -r [FILENAME]: Restore from [FILENAME] 
+  
+  -r [FILENAME]: Restore from [FILENAME]
+  
   -h: Show help
+  
   -d: Show commands and responses from the modem
 
 ### Building it
